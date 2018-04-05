@@ -1,0 +1,17 @@
+sed -i '' 's/E,/,/g' golfer_data/*
+sed -i '' 's/T\-//g' golfer_data/*
+sed -i '' 's/E,/0,/g' golfer_data/*
+sed -i '' 's/CUT/156/g' golfer_data/*
+sed -i '' 's/WD/156/g' golfer_data/*
+sed -i '' 's/"E"/"0"/g' golfer_data/*
+sed -i '' 's/[$//g' golfer_data/*
+
+sed 's/Coco Beach Golf & CC/Coco Beach Golf \& C.C./g' edited/*.csv
+sed -i '' 's/El Camaleon G.C./El Camaleon/g' edited/*.csv
+sed -i '' 's/Kuala Lumpur Golf & C.C./TPC Kuala Lumpur Golf \& C.C./g' edited/*.csv
+sed -i '' 's/The Old White Course\& C.C./The Old White Course/g' edited/*.csv
+
+sed -i '' 's/Coco Beach Golf & CC/Coco Beach Golf \& C.C./g' edited/*.csv
+sed -i '' 's/PGA West TPC Stadium Course/PGA West Stadium Course/g' edited/*.csv
+sed -i
+PGA West Stadium Course
